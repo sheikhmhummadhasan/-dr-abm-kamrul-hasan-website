@@ -3,6 +3,7 @@ import { FaFacebook, FaYoutube } from 'react-icons/fa';
 import { IoCall, IoLocationSharp, IoLogoWhatsapp } from 'react-icons/io5';
 import { MdEmail, MdKeyboardArrowRight } from 'react-icons/md';
 import { RiWhatsappFill } from 'react-icons/ri';
+import { TbWorld } from 'react-icons/tb';
 
 const Footer = () => {
     return (
@@ -34,6 +35,10 @@ const Footer = () => {
                     <a className="link link-hover text-white flex items-center gap-1"><IoCall className='text-xl' /> 01854460146</a>
                     <a className="link link-hover text-white flex items-center gap-1"><MdEmail className='text-xl' /> example@email.com </a>
                     <a className="link link-hover text-white flex items-center gap-1"><RiWhatsappFill className='text-xl' /> 8801712704840</a>
+                    <a href='https://diabeticfootcarebdltd.com/?
+                     target="_blank"
+                            rel="noopener noreferrer"
+' className="link link-hover text-white flex items-center gap-1"><TbWorld className='text-xl'/>https://diabeticfootcarebdltd.com/?</a>
 
                 </nav>
                 <nav>
