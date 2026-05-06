@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaFacebook, FaYoutube } from 'react-icons/fa';
 import { IoCall, IoLocationSharp, IoLogoWhatsapp } from 'react-icons/io5';
-import { MdEmail } from 'react-icons/md';
+import { MdEmail, MdKeyboardArrowRight } from 'react-icons/md';
 import { RiWhatsappFill } from 'react-icons/ri';
 
 const Footer = () => {
@@ -10,19 +10,20 @@ const Footer = () => {
             <footer className="footer sm:footer-horizontal bg-[#1b2c51] text-base-content p-10">
                 <nav>
                     <h6 className="footer-title text-white">DR ABm KAMRUL HASAN</h6>
-                    <a className="link link-hover text-white  ">MBBS,BCS (Health) | DBST</a>
-                    <a className="link link-hover  text-white">MCPS (Transfusion Medicine)</a>
-                    <a className="link link-hover  text-white">PGT (Medicine)</a>
-                    <a className="link link-hover  text-white">CCD, EDC (BIRDEM)</a>
-                    <a className="link link-hover  text-white">Fellowship in Diabetology (India)</a>
-                    <a className="link link-hover  text-white">MSC in Stem Cell & Regenerative Medicne</a>
+                    <a className="link link-hover text-white   flex items-center gap-1"> <MdKeyboardArrowRight />MBBS,BCS (Health) | DBST</a>
+                    <a className="link link-hover  text-white flex items-center gap-1"> <MdKeyboardArrowRight />MCPS (Transfusion Medicine)</a>
+                    <a className="link link-hover  text-white flex items-center gap-1"> <MdKeyboardArrowRight />PGT (Medicine)</a>
+                    <a className="link link-hover  text-white flex items-center gap-1"> <MdKeyboardArrowRight />CCD, EDC (BIRDEM)</a>
+                    <a className="link link-hover  text-white flex items-center gap-1"> <MdKeyboardArrowRight />Fellowship in Diabetology (India)</a>
+                    <a className="link link-hover  text-white flex items-center gap-1"> <MdKeyboardArrowRight />MSC in Stem Cell & Regenerative Medicne</a>
+                    <a className="link link-hover  text-white flex items-center gap-1"> <MdKeyboardArrowRight />Advanced Diploma in Dermatology & Sexology (UK)</a>
                 </nav>
                 <nav>
-                    <h6 className="footer-title text-white">Company</h6>
-                    <a className="link link-hover text-white">About us</a>
-                    <a className="link link-hover text-white">Contact</a>
-                    <a className="link link-hover text-white">Gallery</a>
-                    <a className="link link-hover text-white">Service</a>
+                    <h6 className="footer-title text-white">Specialized Services</h6>
+                    <a className="link link-hover text-white flex items-center gap-1"><MdKeyboardArrowRight /> Diabetic Medicine.</a>
+                    <a className="link link-hover text-white flex items-center gap-1"><MdKeyboardArrowRight /> Diabetic Foot Care / None Healing Ulcers.</a>
+                    <a className="link link-hover text-white flex items-center gap-1"><MdKeyboardArrowRight /> PRP Therapy</a>
+                    <a className="link link-hover text-white flex items-center gap-1"><MdKeyboardArrowRight /> Setm Cell-like Regenerative Treatment.</a>
                 </nav>
                 <nav>
                     <h6 className="footer-title text-white">Contact Information</h6>
@@ -37,9 +38,9 @@ const Footer = () => {
                 </nav>
                 <nav>
                     <h6 className="footer-title text-white">Legal</h6>
-                    <a className="link link-hover text-white">Terms of use</a>
-                    <a className="link link-hover text-white">Privacy policy</a>
-                    <a className="link link-hover text-white">Cookie policy</a>
+                    <a className="link link-hover text-white flex items-center gap-1"><MdKeyboardArrowRight /> Terms of use</a>
+                    <a className="link link-hover text-white flex items-center gap-1"><MdKeyboardArrowRight /> Privacy policy</a>
+                    <a className="link link-hover text-white flex items-center gap-1"><MdKeyboardArrowRight /> Cookie policy</a>
                 </nav>
 
             </footer>
