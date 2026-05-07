@@ -26,7 +26,7 @@ const Appoinment = () => {
         {
             id: 3,
             icon: <FaFacebookF />,
-            number: 'Visite us Facebook page',
+            number: 'Facebook page',
             href: 'https://www.facebook.com/profile.php?id=61580894236206',
             target: '_blank',
             rel: 'noopener noreferrer'
@@ -34,7 +34,7 @@ const Appoinment = () => {
         {
             id: 4,
             icon: <FaYoutube />,
-            number: 'Visite our Youtube Channel',
+            number: 'Youtube Channel',
             href: 'https://youtube.com/@dr.kamrulhealthcare?si=ye5f6vcHDIdjUxj9',
             target: '_blank',
             rel: 'noopener noreferrer'
@@ -89,15 +89,20 @@ const Appoinment = () => {
                                         return (
                                             <a
                                                 key={e.id}
-                                                className="bg-gradient-to-r flex items-center justify-center gap-2 px-2 py-4 rounded text-white cursor-pointer text-base md:text-xl from-[#0361F6] to-[#033095]"
+                                                className="relative overflow-hidden group bg-gradient-to-r flex items-center justify-center gap-2 px-2 py-4 rounded text-white cursor-pointer text-base md:text-xl from-[#0361F6] to-[#033095]"
                                                 href={e.href || "#"}
                                                 target={e.target}
                                                 rel={e.rel}
                                             >
-                                                <h2 className='text-center'>{e.icon}</h2>
-                                                <h2 className='text-center break-all'>
+
+                                                {/* hover light effect */}
+                                                <span className="absolute top-0 left-[-100%] w-full h-full bg-white/20 skew-x-[-20deg] group-hover:left-[120%] transition-all duration-700"></span>
+
+                                                <h2 className="relative z-10 text-center">{e.icon}</h2>
+                                                <h2 className="relative z-10 text-center break-all">
                                                     {e.number}
                                                 </h2>
+
                                             </a>
                                         )
                                     })

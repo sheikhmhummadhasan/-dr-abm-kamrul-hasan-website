@@ -91,10 +91,14 @@ export default function Navbar() {
             href="https://wa.me/8801712704840"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center gap-2 bg-[#0436fa] text-white px-3 sm:px-4 lg:px-5 py-2 rounded-full text-xs sm:text-sm lg:text-base font-semibold"
+            className="relative overflow-hidden group flex items-center gap-2 bg-[#0436fa] text-white px-3 sm:px-4 lg:px-5 py-2 rounded-full text-xs sm:text-sm lg:text-base font-semibold"
           >
-            Book Appointment
-            <FaLongArrowAltRight />
+
+            {/* light effect */}
+            <span className="absolute top-0 left-[-100%] w-full h-full bg-white/20 skew-x-[-20deg] group-hover:left-[120%] transition-all duration-700"></span>
+
+            <span className="relative z-10">Book Appointment</span>
+            <FaLongArrowAltRight className="relative z-10" />
           </a>
         </div>
 
