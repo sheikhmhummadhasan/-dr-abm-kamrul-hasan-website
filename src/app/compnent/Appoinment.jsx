@@ -120,10 +120,8 @@ const Appoinment = () => {
                                 </h2>
 
                                 <p>
-                                    Chamber shedule
-                                    Sirajgonj <br />
-                                    Wednesday, saterday
-                                    3.00 pm - 9.00 pm
+                                    Chamber shedule <br />
+                                    Diabetic foot care & PRP Center (Diagnostic Hospital ),  Sirajganj
                                 </p>
                             </div>
 

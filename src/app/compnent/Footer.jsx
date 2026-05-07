@@ -10,13 +10,13 @@ const Footer = () => {
         <div>
             <footer className="footer sm:footer-horizontal bg-[#1b2c51] text-base-content p-10">
                 <nav>
-                    <h6 className="footer-title text-white">DR ABm KAMRUL HASAN</h6>
+                    <h6 className="footer-title text-white">DR ABM KAMRUL HASAN</h6>
                     <a className="link link-hover text-white   flex items-center gap-1"> <MdKeyboardArrowRight />MBBS,BCS (Health) | DBST</a>
                     <a className="link link-hover  text-white flex items-center gap-1"> <MdKeyboardArrowRight />MCPS (Transfusion Medicine)</a>
                     <a className="link link-hover  text-white flex items-center gap-1"> <MdKeyboardArrowRight />PGT (Medicine)</a>
                     <a className="link link-hover  text-white flex items-center gap-1"> <MdKeyboardArrowRight />CCD, EDC (BIRDEM)</a>
                     <a className="link link-hover  text-white flex items-center gap-1"> <MdKeyboardArrowRight />Fellowship in Diabetology (India)</a>
-                    <a className="link link-hover  text-white flex items-center gap-1"> <MdKeyboardArrowRight />MSC in Stem Cell & Regenerative Medicne</a>
+                    <a className="link link-hover  text-white flex items-center gap-1"> <MdKeyboardArrowRight />MSC in Setm Cell & Regenerative Medicne</a>
                     <a className="link link-hover  text-white flex items-center gap-1"> <MdKeyboardArrowRight />Advanced Diploma in Dermatology & Sexology (UK)</a>
                 </nav>
                 <nav>
@@ -66,7 +66,7 @@ const Footer = () => {
                     <p>
                         Dr A B M Kamrul Hasan.
                         <br />
-                        dr.abd kamrul hasan.©All rights reserved.
+                        dr.abm kamrul hasan.©All rights reserved.
                     </p>
                 </aside>
                 <nav className=" md:place-self-center md:justify-self-end">
