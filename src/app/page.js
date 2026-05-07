@@ -1,8 +1,9 @@
 import Image from "next/image";
 import Navbar from "./compnent/Navbar";
+import Hero from "./compnent/Hero";
 
 export default function Home() {
   return (
-    <h1 className="text-5xl text-center">This is Home</h1>
+    <Hero></Hero>
   );
 }
