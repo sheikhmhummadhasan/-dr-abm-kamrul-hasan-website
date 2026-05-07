@@ -4,6 +4,7 @@ import Hero from "./compnent/Hero";
 import Appoinment from "./compnent/Appoinment";
 import AboutKamrul from "./compnent/AboutKamrul";
 import Service from "./compnent/Service";
+import Posible from "./compnent/Posible";
 
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
       <Appoinment></Appoinment>
       <AboutKamrul></AboutKamrul>
       <Service></Service>
+      <Posible></Posible>
     </>
   );
 }

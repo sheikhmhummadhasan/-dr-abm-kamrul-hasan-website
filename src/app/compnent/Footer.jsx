@@ -69,7 +69,7 @@ const Footer = () => {
                     <p>
                         Dr A B M Kamrul Hasan.
                         <br />
-                        dr.abm kamrul hasan.©All rights reserved.
+                        © Dr.ABM Kamrul Hasan.All rights reserved.
                     </p>
                 </aside>
                 <nav className=" md:place-self-center md:justify-self-end">
