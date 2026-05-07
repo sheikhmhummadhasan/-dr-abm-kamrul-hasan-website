@@ -24,7 +24,7 @@ const Footer = () => {
                     <a className="link link-hover text-white flex items-center gap-1"><MdKeyboardArrowRight /> Diabetic Medicine.</a>
                     <a className="link link-hover text-white flex items-center gap-1"><MdKeyboardArrowRight /> Diabetic Foot Care / None Healing Ulcers.</a>
                     <a className="link link-hover text-white flex items-center gap-1"><MdKeyboardArrowRight /> PRP Therapy</a>
-                    <a className="link link-hover text-white flex items-center gap-1"><MdKeyboardArrowRight /> Setm Cell-like Regenerative Treatment.</a>
+                    <a className="link link-hover text-white flex items-center gap-1"><MdKeyboardArrowRight /> Stem Cell-like Regenerative Treatment.</a>
                 </nav>
                 <nav>
                     <h6 className="footer-title text-white">Contact Information</h6>
