@@ -28,10 +28,10 @@ const Hero = () => {
 
                         <div className="border-l p-2">
                             <h3 className="text-xl md:text-2xl font-semibold">
-                                600+
+                                1500+
                             </h3>
                             <p className="text-sm md:text-base">
-                                Successful Surgeries
+                                Successful PRP Treatments
                             </p>
                         </div>
 
@@ -46,10 +46,10 @@ const Hero = () => {
 
                         <div className="border-l p-2">
                             <h3 className="text-xl md:text-2xl font-semibold">
-                                15000+
+                                17000+
                             </h3>
                             <p className="text-sm md:text-base">
-                                Patients Treated
+                               Diabetes Patients Treated
                             </p>
                         </div>
 

@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 import { FaFacebookF, FaPhoneAlt, FaYoutube } from 'react-icons/fa';
 import { IoLocationSharp } from 'react-icons/io5';
@@ -123,6 +124,10 @@ const Appoinment = () => {
                                     Chamber shedule <br />
                                     Diabetic foot care & PRP Center (Diagnostic Hospital ),  Sirajganj
                                 </p>
+                                <div className='flex items-center justify-end mt-3'>
+                                    <Link className='text-[#0351f6] text-right' href={'https://www.facebook.com/share/18bVg3iPj8/'} target='_blank' rel='noopener noreferrer'>Visite Now</Link>
+
+                                </div>
                             </div>
 
                             <div className="border-l-4 mt-6 lg:mt-10 p-5 bg-[#EEF2FF] rounded border-l-[#0351f6]">
@@ -135,6 +140,12 @@ const Appoinment = () => {
                                     Belkuchi Diabetic Hospital, Belkuchi, Sirajganj <br />
                                     Friday 10 am- 8.00 pm
                                 </p>
+                                <div className='flex items-center justify-end mt-3'>
+                                    <Link className='text-[#0351f6] text-right' target='_blank' rel='noopener noreferrer' href={'https://www.facebook.com/share/1CxRos2iMB/'}>Visite Now</Link>
+                                    {/* target: '_blank',
+                                    rel: 'noopener noreferrer' */}
+
+                                </div>
                             </div>
 
                             <div className="border-l-4 mt-6 lg:mt-10 p-5 bg-[#EEF2FF] rounded border-l-[#0351f6]">
@@ -148,6 +159,10 @@ const Appoinment = () => {
                                     Saturday <br />
                                     10.30 am - 2.30 pm
                                 </p>
+                                <div className='flex items-center justify-end mt-3'>
+                                    <Link className='text-[#0351f6] text-right' href={'https://www.facebook.com/share/1B9PtcbqY9/'}target='_blank' rel='noopener noreferrer' >Visite Now</Link>
+
+                                </div>
                             </div>
 
                             <div className="border-l-4 mt-6 lg:mt-10 p-5 bg-[#EEF2FF] rounded border-l-[#0351f6]">
@@ -161,6 +176,10 @@ const Appoinment = () => {
                                     Sunday - Tuesday
                                     4.00 pm- 9.00 pm
                                 </p>
+                                <div className='flex items-center justify-end mt-3'>
+                                    <Link target='_blank' rel='noopener noreferrer' className='text-[#0351f6] text-right' href={'https://www.facebook.com/share/1BusPitjKy/'} >Visite Now</Link>
+
+                                </div>
                             </div>
 
                         </div>
