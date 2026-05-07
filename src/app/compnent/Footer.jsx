@@ -11,8 +11,8 @@ const Footer = () => {
             <footer className="footer sm:footer-horizontal bg-[#1b2c51] text-base-content p-10">
                 <nav>
                     <h6 className="footer-title text-white">DR ABM KAMRUL HASAN</h6>
-                    <a className="link link-hover text-white   flex items-center gap-1"> <MdKeyboardArrowRight />MBBS,BCS (Health) | DBST</a>
-                    <a className="link link-hover  text-white flex items-center gap-1"> <MdKeyboardArrowRight />MCPS (Transfusion Medicine)</a>
+                    <a className="link link-hover text-white   flex items-center gap-1"> <MdKeyboardArrowRight />MBBS,BCS (Health)</a>
+                    <a className="link link-hover  text-white flex items-center gap-1"> <MdKeyboardArrowRight />DBST, MCPS (Transfusion Medicine)</a>
                     <a className="link link-hover  text-white flex items-center gap-1"> <MdKeyboardArrowRight />PGT (Medicine)</a>
                     <a className="link link-hover  text-white flex items-center gap-1"> <MdKeyboardArrowRight />CCD, EDC (BIRDEM)</a>
                     <a className="link link-hover  text-white flex items-center gap-1"> <MdKeyboardArrowRight />Fellowship in Diabetology (India)</a>
@@ -43,10 +43,13 @@ const Footer = () => {
 
                 </nav>
                 <nav>
-                    <h6 className="footer-title text-white">Legal</h6>
-                    <a className="link link-hover text-white flex items-center gap-1"><MdKeyboardArrowRight /> Terms of use</a>
-                    <a className="link link-hover text-white flex items-center gap-1"><MdKeyboardArrowRight /> Privacy policy</a>
-                    <a className="link link-hover text-white flex items-center gap-1"><MdKeyboardArrowRight /> Cookie policy</a>
+                    <h6 className="footer-title text-white">PRP Therapy given on</h6>
+                    <a className="link link-hover text-white flex items-center gap-1"><MdKeyboardArrowRight /> PRP on Diabetic Foot Infection / Diabetic Foot Ulcer</a>
+                    <a className="link link-hover text-white flex items-center gap-1"><MdKeyboardArrowRight /> PRP on Non Healing Ulcer</a>
+                    <a className="link link-hover text-white flex items-center gap-1"><MdKeyboardArrowRight /> Hair PRP</a>
+                    <a className="link link-hover text-white flex items-center gap-1"><MdKeyboardArrowRight /> Facial PRP</a>
+                    <a className="link link-hover text-white flex items-center gap-1"><MdKeyboardArrowRight /> PRP on Erectile Dysfunction (ED)</a>
+                    <a className="link link-hover text-white flex items-center gap-1"><MdKeyboardArrowRight /> PRP on Osteoarthritis</a>
                 </nav>
 
             </footer>

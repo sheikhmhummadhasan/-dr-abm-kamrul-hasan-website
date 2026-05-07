@@ -80,7 +80,7 @@ const Appoinment = () => {
                             </h4>
 
                             <h2 className="text-2xl md:text-3xl mb-9 text-[#0361f6] font-bold">
-                                Get Expert Transfusion & Regenerative Medicine Specialist Today.
+                               Get Expart Diabetes Medicine,  Diabetic Foot management, Transfusion & Regenerative Medicine Specialist Today.
                             </h2>
 
                             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 bg-[#EEF2FF] rounded-2xl p-5 md:p-10 lg:p-15">
