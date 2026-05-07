@@ -60,7 +60,7 @@ const Hero = () => {
                     <Image
                         src={'/dr-kamrul-hero-img.jpeg'}
                         alt='dr abm kamrul hasan hero photo'
-                       className='w-[280px] md:w-[400px] mt-3 rounded-xl lg:rounded-none lg:w-[700px] lg:mt-0 h-auto'
+                        className='w-[280px] md:w-[400px] mt-6 rounded-xl lg:rounded-none lg:w-[700px] lg:mt-0 h-auto'
                         height={30}
                         width={500}
                     />

@@ -28,12 +28,13 @@ const Footer = () => {
                 </nav>
                 <nav>
                     <h6 className="footer-title text-white">Contact Information</h6>
-                    <a className="link link-hover flex  gap-1 text-white"><IoLocationSharp className='text-xl' /> Diabetic Foot Care & PRP Center
+                    <a className="link link-hover flex  gap-1 text-white"> Diabetic Foot Care & PRP Center
                         (Diagnostic Hospital), Sirajganj
                         📍<br /> Adjacent to Zila Parishad Mosque, Diarboddonath, Shialkol</a>
                     {/* <a className="link link-hover flex items-center gap-1 text-white"><IoLocationSharp className='text-xl'/> Dinajpur Sadar, Dinajpur.</a> */}
                     <a className="link link-hover text-white flex items-center gap-1"><IoCall className='text-xl' /> 01854460146</a>
-                    <a className="link link-hover text-white flex items-center gap-1"><MdEmail className='text-xl' /> example@email.com </a>
+                    <a className="link link-hover text-white flex items-center gap-1"><MdEmail className='text-xl' /> drabmkamrulhasan@gmail.com </a>
+                    <a className="link link-hover text-white flex items-center gap-1"><MdEmail className='text-xl' /> abmkamrulhasan32@gmail.com </a>
                     <a className="link link-hover text-white flex items-center gap-1"><RiWhatsappFill className='text-xl' /> 8801712704840</a>
                     <a href='https://diabeticfootcarebdltd.com/?
                      target="_blank"
