@@ -141,6 +141,16 @@ const Service = () => {
                                 <div className="mt-3 text-xs text-green-600 font-medium">
                                     {e.couse}
                                 </div>
+                                <div className="flex items-center justify-end mt-2">
+                                    <a
+                                        href="https://wa.me/8801712704840"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="px-4 py-2 text-sm rounded-lg bg-green-500 text-white hover:bg-green-600 transition"
+                                    >
+                                        Book An Appoinment
+                                    </a>
+                                </div>
                             </div>
                         );
                     })}
