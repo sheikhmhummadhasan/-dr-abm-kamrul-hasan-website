@@ -9,6 +9,11 @@ import Edq from "./compnent/Edq";
 import FAQ from "./compnent/Faq";
 import PatientReviews from "./compnent/Review";
 
+export const metadata = {
+  title: "Diabetic Foot Care & PRP Center Sirajganj",
+  description:
+    "ডায়াবেটিক ফুট কেয়ার, PRP থেরাপি, চুল পড়া, ত্বক ও হাঁটু ব্যথার আধুনিক চিকিৎসা কেন্দ্র।",
+};
 
 export default function Home() {
   return (
