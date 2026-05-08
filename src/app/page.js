@@ -6,6 +6,7 @@ import AboutKamrul from "./compnent/AboutKamrul";
 import Service from "./compnent/Service";
 import Posible from "./compnent/Posible";
 import Edq from "./compnent/Edq";
+import FAQ from "./compnent/Faq";
 
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
       <Service></Service>
       <Posible></Posible>
       <Edq></Edq>
+      <FAQ></FAQ>
     </>
   );
 }

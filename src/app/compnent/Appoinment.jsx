@@ -51,7 +51,7 @@ const Appoinment = () => {
         {
             id: 6,
             icon: <MdOutlineMail />,
-            number: 'drabmkamrulhasan@gmail.com',
+            number: 'Gmail',
             href: 'https://mail.google.com/mail/?view=cm&fs=1&to=drabmkamrulhasan@gmail.com',
             target: '_blank',
             rel: 'noopener noreferrer'
