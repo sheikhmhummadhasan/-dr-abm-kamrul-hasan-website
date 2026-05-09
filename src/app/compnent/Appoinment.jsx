@@ -11,7 +11,7 @@ const Appoinment = () => {
         {
             id: 1,
             icon: <FaPhoneAlt />,
-            number: '01768780446',
+            number: '01782512659',
             href: '',
             target: '_blank',
             rel: 'noopener noreferrer'
@@ -69,7 +69,7 @@ const Appoinment = () => {
                     </h3>
                 </div>
 
-                <div className="flex flex-col lg:flex-row items-stretch gap-5 justify-between"> 
+                <div className="flex flex-col lg:flex-row items-stretch gap-5 justify-between">
 
                     {/* Left Side */}
                     <div className="w-full lg:w-1/2">
@@ -80,7 +80,7 @@ const Appoinment = () => {
                             </h4>
 
                             <h2 className="text-2xl md:text-3xl mb-9 text-[#0361f6] font-bold">
-                               Get Expart Diabetes Medicine,  Diabetic Foot management, Transfusion & Regenerative Medicine Specialist Today.
+                                Get Expart Diabetes Medicine,  Diabetic Foot management, Transfusion & Regenerative Medicine Specialist Today.
                             </h2>
 
                             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 bg-[#EEF2FF] rounded-2xl p-5 md:p-10 lg:p-15">
@@ -122,7 +122,9 @@ const Appoinment = () => {
 
                                 <p>
                                     <br />
-                                    Diabetic foot care & PRP Center (Diagnostic Hospital ),  Sirajganj
+                                    Diabetic foot care & PRP Center (Diagnostic Hospital ),  Sirajganj <br />
+                                    Thursday,  Saturday
+                                    2.30pm- 9.00 pm
                                 </p>
                                 <div className='flex items-center justify-end mt-3'>
                                     <Link className='text-[#0351f6] text-right' href={'https://www.facebook.com/share/18bVg3iPj8/'} target='_blank' rel='noopener noreferrer'>Visite Now</Link>
@@ -160,7 +162,7 @@ const Appoinment = () => {
                                     10.30 am - 2.30 pm
                                 </p>
                                 <div className='flex items-center justify-end mt-3'>
-                                    <Link className='text-[#0351f6] text-right' href={'https://www.facebook.com/share/1B9PtcbqY9/'}target='_blank' rel='noopener noreferrer' >Visite Now</Link>
+                                    <Link className='text-[#0351f6] text-right' href={'https://www.facebook.com/share/1B9PtcbqY9/'} target='_blank' rel='noopener noreferrer' >Visite Now</Link>
 
                                 </div>
                             </div>
