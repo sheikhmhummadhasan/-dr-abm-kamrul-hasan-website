@@ -69,7 +69,7 @@ const Appoinment = () => {
                     </h3>
                 </div>
 
-                <div className="flex flex-col lg:flex-row items-stretch gap-5 justify-between">
+                <div className="flex flex-col lg:flex-row items-stretch gap-5 justify-between"> 
 
                     {/* Left Side */}
                     <div className="w-full lg:w-1/2">
@@ -121,7 +121,7 @@ const Appoinment = () => {
                                 </h2>
 
                                 <p>
-                                    Chamber shedule <br />
+                                    <br />
                                     Diabetic foot care & PRP Center (Diagnostic Hospital ),  Sirajganj
                                 </p>
                                 <div className='flex items-center justify-end mt-3'>
@@ -177,7 +177,7 @@ const Appoinment = () => {
                                     4.00 pm- 9.00 pm
                                 </p>
                                 <div className='flex items-center justify-end mt-3'>
-                                    <Link target='_blank' rel='noopener noreferrer' className='text-[#0351f6] text-right' href={'https://www.facebook.com/share/1BusPitjKy/'} >Visite Now</Link>
+                                    <Link target='_blank' rel='noopener noreferrer' className='text-[#0351f6] text-right' href={'https://www.facebook.com/share/18q7w3CRCN/'} >Visite Now</Link>
 
                                 </div>
                             </div>
