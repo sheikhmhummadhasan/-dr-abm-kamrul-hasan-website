@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React from 'react';
 
 export const metadata = {
@@ -68,6 +69,169 @@ const GallaryPage = () => {
                                 />
                             </div>
                         ))}
+                    </div>
+                </div>
+                <div className="w-11/12 max-w-7xl mx-auto py-16">
+
+                    {/* Heading */}
+                    <div className="text-center mb-12">
+                        <h2 className="text-sm sm:text-base md:text-lg inline-block border border-blue-200 text-[#0463fa] rounded-full py-2 px-5 bg-blue-50">
+                            Treatment Results
+                        </h2>
+
+                        <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mt-5 text-gray-900 leading-tight">
+                            Before & After Treatment Gallery
+                        </h1>
+
+                        <p className="text-gray-500 mt-4 max-w-2xl mx-auto text-sm sm:text-base">
+                            Explore real patient treatment transformations with advanced PRP therapy and specialized medical care.
+                        </p>
+                    </div>
+
+                    {/* Gallery */}
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+                        {/* Card 1 */}
+                        <div className="bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition duration-300 border border-gray-100">
+
+                            <div className="grid grid-cols-2">
+
+                                {/* Before */}
+                                <div className="relative">
+                                    <Image
+                                        src="/prp-before-1.jpeg"
+                                        alt="Before PRP Hair Treatment"
+                                        width={500}
+                                        height={500}
+                                        className="w-full h-64 object-cover"
+                                    />
+
+                                    <span className="absolute top-3 left-3 bg-red-500 text-white text-xs px-3 py-1 rounded-full">
+                                        Before
+                                    </span>
+                                </div>
+
+                                {/* After */}
+                                <div className="relative">
+                                    <Image
+                                        src="/prp-after-1.jpeg"
+                                        alt="After PRP Hair Treatment"
+                                        width={500}
+                                        height={500}
+                                        className="w-full h-64 object-cover"
+                                    />
+
+                                    <span className="absolute top-3 right-3 bg-green-500 text-white text-xs px-3 py-1 rounded-full">
+                                        After
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div className="p-5">
+                                <h3 className="text-xl font-bold text-gray-800">
+                                    PRP Hair Treatment
+                                </h3>
+
+                                <p className="text-gray-500 text-sm mt-2">
+                                    Visible improvement after professional PRP therapy sessions.
+                                </p>
+                            </div>
+                        </div>
+
+                        {/* Card 2 */}
+                        <div className="bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition duration-300 border border-gray-100">
+
+                            <div className="grid grid-cols-2">
+
+                                {/* Before */}
+                                <div className="relative">
+                                    <Image
+                                        src="/prp-before-2.jpeg"
+                                        alt="Before Skin Treatment"
+                                        width={500}
+                                        height={500}
+                                        className="w-full h-64 object-cover"
+                                    />
+
+                                    <span className="absolute top-3 left-3 bg-red-500 text-white text-xs px-3 py-1 rounded-full">
+                                        Before
+                                    </span>
+                                </div>
+
+                                {/* After */}
+                                <div className="relative">
+                                    <Image
+                                        src="/prp-after-2.jpeg"
+                                        alt="After Skin Treatment"
+                                        width={500}
+                                        height={500}
+                                        className="w-full h-64 object-cover"
+                                    />
+
+                                    <span className="absolute top-3 right-3 bg-green-500 text-white text-xs px-3 py-1 rounded-full">
+                                        After
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div className="p-5">
+                                <h3 className="text-xl font-bold text-gray-800">
+                                    Advanced Skin Care
+                                </h3>
+
+                                <p className="text-gray-500 text-sm mt-2">
+                                    Effective skin rejuvenation and scar improvement treatment.
+                                </p>
+                            </div>
+                        </div>
+
+                        {/* Card 3 */}
+                        <div className="bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition duration-300 border border-gray-100">
+
+                            <div className="grid grid-cols-2">
+
+                                {/* Before */}
+                                <div className="relative">
+                                    <Image
+                                        src="/prp-before-3.jpeg"
+                                        alt="Before PRP Therapy"
+                                        width={500}
+                                        height={500}
+                                        className="w-full h-64 object-cover"
+                                    />
+
+                                    <span className="absolute top-3 left-3 bg-red-500 text-white text-xs px-3 py-1 rounded-full">
+                                        Before
+                                    </span>
+                                </div>
+
+                                {/* After */}
+                                <div className="relative">
+                                    <Image
+                                        src="/prp-after-3.jpeg"
+                                        alt="After PRP Therapy"
+                                        width={500}
+                                        height={500}
+                                        className="w-full h-64 object-cover"
+                                    />
+
+                                    <span className="absolute top-3 right-3 bg-green-500 text-white text-xs px-3 py-1 rounded-full">
+                                        After
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div className="p-5">
+                                <h3 className="text-xl font-bold text-gray-800">
+                                    PRP Therapy Results
+                                </h3>
+
+                                <p className="text-gray-500 text-sm mt-2">
+                                    Real treatment outcomes with expert medical care and PRP solutions.
+                                </p>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </div>
