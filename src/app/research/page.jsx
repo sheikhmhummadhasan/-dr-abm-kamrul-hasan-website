@@ -11,7 +11,7 @@ const researchData = [
             'Research on the effectiveness of Platelet-Rich Plasma (PRP) therapy for diabetic foot ulcers and chronic wound healing.',
         journal: 'International Journal of Medical & Pharmaceutical Research',
         year: '2022',
-        href: '/research/prp-foot-ulcer.pdf',
+        href: '/one.pdf',
     },
     {
         id: 2,
@@ -21,7 +21,7 @@ const researchData = [
             'A Bangladesh-based study evaluating PRP therapy outcomes in diabetic foot ulcer patients.',
         journal: 'Medical Research Publication',
         year: '2022',
-        href: '/research/dfu-prp-study.pdf',
+        href: '/tow.pdf',
     },
     {
         id: 3,
@@ -31,7 +31,7 @@ const researchData = [
             'Comparative study of platelet transfusion effectiveness in thrombocytopenic patients.',
         journal: 'Hematology & Transfusion Research',
         year: '2023',
-        href: '/research/first-jurnal.pdf',
+        href: '/three.pdf',
     },
     {
         id: 4,
@@ -41,7 +41,7 @@ const researchData = [
             'Study on effectiveness of platelet transfusion methods in clinical patients.',
         journal: 'Clinical Hematology Journal',
         year: '2023',
-        href: '/research/platelet-study.pdf',
+        href: '/four.pdf',
     },
     {
         id: 5,
@@ -51,7 +51,7 @@ const researchData = [
             'Evaluation of PRP therapy in wound healing and diabetic complications.',
         journal: 'Medical Science Review',
         year: '2024',
-        href: '/research/prp-clinical.pdf',
+        href: '/five.pdf',
     },
 ];
 
@@ -110,9 +110,9 @@ const ResearchPage = () => {
                         </div>
 
                         {/* Button feel */}
-                        <div className="mt-5 text-center text-[#0463fa] font-medium">
+                        <button className="mt-6 w-full bg-[#0463fa] hover:bg-[#0352cf] text-white py-3 rounded-xl transition duration-300 font-medium">
                             View PDF →
-                        </div>
+                        </button>
 
                     </a>
                 ))}
