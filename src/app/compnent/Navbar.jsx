@@ -46,6 +46,7 @@ export default function Navbar() {
               <li><Link href="/service">Service</Link></li>
               <li><Link href="/gallery">Gallery</Link></li>
               <li><Link href="/contact">Contact</Link></li>
+              <li><Link href="/research">My Research</Link></li>
             </ul>
           </div>
 
@@ -80,6 +81,9 @@ export default function Navbar() {
 
             <Link className={path === "/contact" ? "text-[#0463fa] font-bold" : ""} href="/contact">
               Contact
+            </Link>
+            <Link className={path === "/research" ? "text-[#0463fa] font-bold" : ""} href="/research">
+              My Research
             </Link>
 
           </ul>

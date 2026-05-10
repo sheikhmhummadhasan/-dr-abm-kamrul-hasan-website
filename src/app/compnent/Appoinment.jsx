@@ -174,7 +174,7 @@ const Appoinment = () => {
                                 </h2>
 
                                 <p>
-                                    Dinajpur <br />
+                                    Uttara Diagnostic Complex, Dinajpur<br />
                                     Sunday - Tuesday
                                     4.00 pm- 9.00 pm
                                 </p>
