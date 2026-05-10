@@ -127,7 +127,7 @@ const Appoinment = () => {
                                     2.30pm- 9.00 pm
                                 </p>
                                 <div className='flex items-center justify-end mt-3'>
-                                    <Link className='text-[#0351f6] text-right' href={'https://www.facebook.com/share/18bVg3iPj8/'} target='_blank' rel='noopener noreferrer'>Visite Now</Link>
+                                    <Link className='text-[#0351f6] text-right' href={'https://www.facebook.com/share/18bVg3iPj8/'} target='_blank' rel='noopener noreferrer'>Visit Now</Link>
 
                                 </div>
                             </div>
@@ -143,7 +143,7 @@ const Appoinment = () => {
                                     Friday 10 am- 8.00 pm
                                 </p>
                                 <div className='flex items-center justify-end mt-3'>
-                                    <Link className='text-[#0351f6] text-right' target='_blank' rel='noopener noreferrer' href={'https://www.facebook.com/share/1CxRos2iMB/'}>Visite Now</Link>
+                                    <Link className='text-[#0351f6] text-right' target='_blank' rel='noopener noreferrer' href={'https://www.facebook.com/share/1CxRos2iMB/'}>Visit Now</Link>
                                     {/* target: '_blank',
                                     rel: 'noopener noreferrer' */}
 
@@ -179,7 +179,7 @@ const Appoinment = () => {
                                     4.00 pm- 9.00 pm
                                 </p>
                                 <div className='flex items-center justify-end mt-3'>
-                                    <Link target='_blank' rel='noopener noreferrer' className='text-[#0351f6] text-right' href={'https://www.facebook.com/share/18q7w3CRCN/'} >Visite Now</Link>
+                                    <Link target='_blank' rel='noopener noreferrer' className='text-[#0351f6] text-right' href={'https://www.facebook.com/share/18q7w3CRCN/'} >Visit Now</Link>
 
                                 </div>
                             </div>
