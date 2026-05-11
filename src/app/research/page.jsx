@@ -15,42 +15,41 @@ const researchData = [
     },
     {
         id: 2,
-        title: 'Role of PRP Therapy on Diabetic Foot Ulcer (DFU)',
+        title: 'Decoding the Science of Fingerprints: The Influence of Sex and BloodGroup on Dermatoglyphic Traits among Medical Students',
         icon: <FaFlask />,
-        description:
-            'A Bangladesh-based study evaluating PRP therapy outcomes in diabetic foot ulcer patients.',
+        description:'International Journal of forensic Expert Alliance',
         journal: 'Medical Research Publication',
-        year: '2022',
+        year: '2024',
         href: '/tow.pdf',
     },
     {
         id: 3,
-        title: 'Random Donor Platelet vs Single Donor Platelet',
+        title: '3. The Pattern of Hematological Abnormalities in NS1 Positive Dengue Fever',
         icon: <FaMicroscope />,
         description:
-            'Comparative study of platelet transfusion effectiveness in thrombocytopenic patients.',
+            'Asian Hematology Research Journal.',
         journal: 'Hematology & Transfusion Research',
         year: '2023',
         href: '/three.pdf',
     },
     {
         id: 4,
-        title: 'Platelet Transfusion Efficiency Study',
+        title: '4. Platelet-Rich Plasma Therapy for Hair Loss Treatment in North Bengal Medical College, Sirajganj, Bangladesh',
         icon: <FaBookMedical />,
         description:
-            'Study on effectiveness of platelet transfusion methods in clinical patients.',
+            'International Journal of Dermatology Sciences.',
         journal: 'Clinical Hematology Journal',
         year: '2023',
         href: '/four.pdf',
     },
     {
         id: 5,
-        title: 'Clinical Outcomes of PRP Therapy',
+        title: 'Role of Platelet Rich Plasma (PRP) Therapy on Diabetic Foot Ulcer (DFU): A Prospective Study in Bangladesh',
         icon: <MdScience />,
         description:
-            'Evaluation of PRP therapy in wound healing and diabetic complications.',
+            'Jouranl Of SMMAMC.',
         journal: 'Medical Science Review',
-        year: '2024',
+        year: '2023',
         href: '/five.pdf',
     },
 ];
