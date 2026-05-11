@@ -102,7 +102,7 @@ const SocialWorkPage = () => {
                     </div>
 
                     {/* Paragraph */}
-                    <p className="text-[#000000] text-center text-sm sm:text-base md:text-lg leading-7 sm:leading-8 mt-8 max-w-6xl mx-auto px-2 sm:px-4">
+                    <p className="text-[#000] text-center text-sm sm:text-base md:text-lg leading-7 sm:leading-8 mt-8 max-w-6xl mx-auto px-2 sm:px-4">
                         ডাক্তার হওয়া মানেই শুধু রোগী দেখা নয়; বরং মানুষের পাশে দাঁড়ানো, মানবতার সেবা করা এবং সমাজের প্রতি দায়িত্ববোধ থেকে কাজ করাও একজন চিকিৎসকের অন্যতম কর্তব্য।
                         এই লক্ষ্য ও স্বপ্নকে ধারণ করে ২০১৭ সালে আমি আমার নিজ জেলা সিরাজগঞ্জের বেলকুচি উপজেলার প্রত্যন্ত গ্রাম শেলবরিষাতে প্রতিষ্ঠা করি “শেলবরিষা সমাজ কল্যাণ সংস্থা”...
                     </p>
