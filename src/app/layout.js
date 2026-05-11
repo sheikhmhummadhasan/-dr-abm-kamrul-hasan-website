@@ -15,29 +15,13 @@ const geistMono = Geist_Mono({
 
 
 export const metadata = {
-  title: "Dr ABM Kamrul Hasan | Best Diabetic Foot & Specialist Doctor in Bangladesh",
+  title: "Dr ABM Kamrul Hasan | Diabetic Foot & Wound Care Expert",
   description:
-    "Dr ABM Kamrul Hasan provides advanced treatment for diabetic foot, PRP therapy, hair loss, skin and knee pain with modern medical care in Bangladesh.",
+    "ডায়াবেটিক ফুট কেয়ার, PRP থেরাপি, চুল পড়া, ত্বক ও হাঁটু ব্যথার আধুনিক চিকিৎসা কেন্দ্র।",
   icons: {
     icon: "/favicon.png",
   },
-  keywords: [
-    "Dr ABM Kamrul Hasan",
-    "diabetic foot treatment Bangladesh",
-    "PRP therapy Bangladesh",
-    "hair loss treatment",
-    "knee pain doctor",
-    "skin treatment Bangladesh",
-  ],
-  openGraph: {
-    title: "Dr ABM Kamrul Hasan | Transfusion & Regenerative Medicine Specialist",
-    description:
-      "Advanced diabetic foot, PRP therapy and modern treatment in Bangladesh.",
-    url: "https://drabmkamrulhasan.com/spek-doc-1.jpeg",
-    type: "website",
-  },
 };
-
 export default function RootLayout({ children }) {
   return (
     <html

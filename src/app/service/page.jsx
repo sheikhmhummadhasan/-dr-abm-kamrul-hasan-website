@@ -13,9 +13,12 @@ import {
 } from "react-icons/fa";
 
 export const metadata = {
-    title: "Diabetic Foot Care & PRP Center Sirajganj",
-    description:
-        "ডায়াবেটিক ফুট কেয়ার, PRP থেরাপি, চুল পড়া, ত্বক ও হাঁটু ব্যথার আধুনিক চিকিৎসা কেন্দ্র।",
+  title: "Dr ABM Kamrul Hasan | Diabetic Foot & Wound Care Expert",
+  description:
+    "ডায়াবেটিক ফুট কেয়ার, PRP থেরাপি, চুল পড়া, ত্বক ও হাঁটু ব্যথার আধুনিক চিকিৎসা কেন্দ্র।",
+  icons: {
+    icon: "/favicon.png",
+  },
 };
 
 const ServicePage = () => {

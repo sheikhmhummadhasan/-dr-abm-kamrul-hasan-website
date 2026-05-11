@@ -2,6 +2,15 @@ import React from 'react';
 import { FaBookMedical, FaMicroscope, FaUserMd, FaHospital, FaFlask } from 'react-icons/fa';
 import { MdScience, MdHealthAndSafety } from 'react-icons/md';
 
+export const metadata = {
+    title: "Dr ABM Kamrul Hasan | Diabetic Foot & Wound Care Expert",
+    description:
+        "ডায়াবেটিক ফুট কেয়ার, PRP থেরাপি, চুল পড়া, ত্বক ও হাঁটু ব্যথার আধুনিক চিকিৎসা কেন্দ্র।",
+    icons: {
+        icon: "/favicon.png",
+    },
+};
+
 const researchData = [
     {
         id: 1,
