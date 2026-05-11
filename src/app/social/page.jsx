@@ -12,7 +12,7 @@ export const metadata = {
 
 const SocialWorkPage = () => {
     
-    const images = Array.from({ length: 18 }, (_, i) => `/sc-${i + 1}.jpeg`);
+    const images = Array.from({ length: 14 }, (_, i) => `/sc-${i + 1}.jpeg`);
     return (
         <div className="bg-[#eef2ff] min-h-screen py-6">
 
