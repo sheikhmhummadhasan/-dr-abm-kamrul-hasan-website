@@ -62,7 +62,7 @@ const Hero = () => {
                 <div className="w-full lg:w-1/2 flex justify-center lg:justify-end">
 
                     <Image
-                        src={'/spek-doc-1.jpeg'}
+                        src={'/profile-pic.jpeg'}
                         alt='dr abm kamrul hasan hero photo'
                         height={30}
                         width={700}

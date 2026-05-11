@@ -6,9 +6,9 @@ import { MdOutlineMail } from 'react-icons/md';
 import { RiWhatsappLine } from 'react-icons/ri';
 
 export const metadata = {
-  title: "Dr ABM Kamrul Hasan |Diabetic Foot & Wound Care Expert",
+  title: "Dr ABM Kamrul Hasan | Diabetic Foot & Wound Care Expert",
   description:
-    "ডায়াবেটিক ফুট কেয়ার, PRP থেরাপি, চুল পড়া, ত্বক ও হাঁটু ব্যথার আধুনিক চিকিৎসা কেন্দ্র।",
+    "ডায়াবেটিক ফুট, দীর্ঘদিনের ক্ষত, চুল পড়া/টাক, ত্বকের সমস্যা এবং যৌন দুর্বলতায় PRP (Platelet Rich Plasma) এবং Stem Cell Therapy চিকিৎসক",
   icons: {
     icon: "/favicon.png",
   },
