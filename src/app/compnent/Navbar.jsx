@@ -41,12 +41,13 @@ export default function Navbar() {
               tabIndex={0}
               className="menu menu-sm dropdown-content mt-3 z-[1] p-3 shadow bg-base-100 rounded-box w-52"
             >
-              <li><Link href="/">Home</Link></li>
-              <li><Link href="/about">About</Link></li>
-              <li><Link href="/service">Service</Link></li>
-              <li><Link href="/gallery">Gallery</Link></li>
-              <li><Link href="/contact">Contact</Link></li>
-              <li><Link href="/research">My Research</Link></li>
+              <li><Link className={path === '/' ? 'text-[#0463fa]' : ''} href="/">Home</Link></li>
+              <li><Link className={path === '/about' ? 'text-[#0463fa]' : ''} href="/about">About</Link></li>
+              <li><Link className={path === '/service' ? 'text-[#0463fa]' : ''} href="/service">Service</Link></li>
+              <li><Link className={path === '/gallery' ? 'text-[#0463fa]' : ''} href="/gallery">Gallery</Link></li>
+              <li><Link className={path === '/contact' ? 'text-[#0463fa]' : ''} href="/contact">Contact</Link></li>
+              <li><Link className={path === '/research' ? 'text-[#0463fa]' : ''} href="/research">My Research</Link></li>
+              <li><Link className={path === '/social' ? 'text-[#0463fa]' : ''} href="/social">Social Work</Link></li>
             </ul>
           </div>
 
@@ -84,6 +85,9 @@ export default function Navbar() {
             </Link>
             <Link className={path === "/research" ? "text-[#0463fa] font-bold" : ""} href="/research">
               My Research
+            </Link>
+            <Link className={path === "/social" ? "text-[#0463fa] font-bold" : ""} href="/social">
+              Social Work
             </Link>
 
           </ul>
