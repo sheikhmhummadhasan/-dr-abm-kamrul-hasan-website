@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React from 'react';
 
 const SocialWorkPage = () => {
@@ -5,14 +6,61 @@ const SocialWorkPage = () => {
         <div className="bg-[#eef2ff] min-h-screen py-6">
 
             {/* Title */}
-            <h1 className="w-11/12 max-w-7xl mx-auto bg-white rounded-2xl shadow-md p-5 sm:p-6 md:p-8 
-            text-center text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-gray-800 leading-relaxed">
+            <div className="w-11/12 max-w-7xl mx-auto bg-white rounded-[32px] shadow-xl p-6 sm:p-8 md:p-10 lg:p-14">
 
-                <span className='text-5xl font-bold text-[#0436fa]'>আজীবন সদস্য </span> <br /> Blood Transfusion Society of Bangladesh (BTSB) <br /> Asian Association of Transfusion Medicine (AATM) <br />
-                <span className='text-5xl font-bold text-[#0436fa]'>প্রতিষ্ঠাতা উপদেষ্টা </span> <br />নাসরিন আমির সেবা কেন্দ্র (NASK) <br /> শেলবরিষা সমাজ কল্যাণ সংস্থা (SSKS) <br />
-                Dr. Kamrul's Poor Fund
+                <div className="flex flex-col-reverse lg:flex-row items-center justify-between gap-10">
 
-            </h1>
+                    {/* Left Content */}
+                    <div className="flex-1 text-center lg:text-left">
+
+                        <h1 className="text-gray-800 leading-snug">
+
+                            <span className="block text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-extrabold text-[#0463fa] mb-3">
+                                আজীবন সদস্য
+                            </span>
+
+                            <span className="block text-base sm:text-lg md:text-xl font-medium text-gray-700 leading-relaxed">
+                                Blood Transfusion Society of Bangladesh (BTSB)
+                            </span>
+
+                            <span className="block text-base sm:text-lg md:text-xl font-medium text-gray-700 leading-relaxed mt-1">
+                                Asian Association of Transfusion Medicine (AATM)
+                            </span>
+
+                            <span className="block text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-extrabold text-[#0463fa] mt-8 mb-3">
+                                প্রতিষ্ঠাতা উপদেষ্টা
+                            </span>
+
+                            <span className="block text-base sm:text-lg md:text-xl font-medium text-gray-700 leading-relaxed">
+                                নাসরিন আমির সেবা কেন্দ্র (NASK)
+                            </span>
+
+                            <span className="block text-base sm:text-lg md:text-xl font-medium text-gray-700 leading-relaxed mt-1">
+                                শেলবরিষা সমাজ কল্যাণ সংস্থা (SSKS)
+                            </span>
+
+                            <span className="block text-lg sm:text-xl md:text-2xl font-semibold text-[#0463fa] mt-6">
+                                Dr. Kamrul's Poor Fund
+                            </span>
+
+                        </h1>
+                    </div>
+
+                    {/* Right Image */}
+                    <div className="flex justify-center">
+                        <div className="overflow-hidden rounded-[28px] shadow-lg border-4 border-[#eef2ff]">
+                            <Image
+                                src="/spek-doc-1.jpeg"
+                                alt="doc speaking"
+                                width={380}
+                                height={450}
+                                className="object-cover hover:scale-105 transition duration-500"
+                            />
+                        </div>
+                    </div>
+
+                </div>
+            </div>
 
             {/* Container */}
             <div className="w-11/12 max-w-7xl mx-auto py-10">
