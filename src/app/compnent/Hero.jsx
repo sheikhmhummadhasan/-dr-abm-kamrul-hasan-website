@@ -6,7 +6,9 @@ const Hero = () => {
         <div>
             <div className="flex flex-col-reverse lg:flex-row items-center justify-between bg-[#0453fa] text-white space-y-3 lg:space-y-0">
 
-                <div className="px-5 py-5">
+                {/* Left Content */}
+                <div className="w-full lg:w-1/2 px-5 py-5 lg:px-10">
+
                     <h1 className="text-3xl md:text-4xl lg:text-7xl mb-4 font-semibold">
                         Dr. A B M Kamrul Hasan
                     </h1>
@@ -49,21 +51,34 @@ const Hero = () => {
                                 17000+
                             </h3>
                             <p className="text-sm md:text-base">
-                               Diabetes Patients Treated
+                                Diabetes Patients Treated
                             </p>
                         </div>
 
                     </div>
                 </div>
 
-                <div>
+                {/* Right Image */}
+                <div className="w-full lg:w-1/2 flex justify-center lg:justify-end">
+
                     <Image
-                        src={'/dr-kamrul-hero-img.jpeg'}
+                        src={'/spek-doc-1.jpeg'}
                         alt='dr abm kamrul hasan hero photo'
-                        className='w-[280px] md:w-[400px] mt-6 rounded-xl lg:rounded-none lg:w-[700px] lg:mt-0 h-auto'
                         height={30}
-                        width={500}
+                        width={700}
+                        className='
+                        w-[280px] 
+                        md:w-[400px] 
+                        mt-6 
+                        rounded-xl 
+                        lg:rounded-none 
+                        lg:w-full 
+                        lg:h-screen 
+                        lg:mt-0 
+                        h-auto 
+                        object-cover'
                     />
+
                 </div>
 
             </div>

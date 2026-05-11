@@ -2,6 +2,8 @@ import Image from 'next/image';
 import React from 'react';
 
 const SocialWorkPage = () => {
+    
+    const images = Array.from({ length: 18 }, (_, i) => `/sc-${i + 1}.jpeg`);
     return (
         <div className="bg-[#eef2ff] min-h-screen py-6">
 
@@ -95,6 +97,32 @@ const SocialWorkPage = () => {
                         ডাক্তার হওয়া মানেই শুধু রোগী দেখা নয়; বরং মানুষের পাশে দাঁড়ানো, মানবতার সেবা করা এবং সমাজের প্রতি দায়িত্ববোধ থেকে কাজ করাও একজন চিকিৎসকের অন্যতম কর্তব্য।
                         এই লক্ষ্য ও স্বপ্নকে ধারণ করে ২০১৭ সালে আমি আমার নিজ জেলা সিরাজগঞ্জের বেলকুচি উপজেলার প্রত্যন্ত গ্রাম শেলবরিষাতে প্রতিষ্ঠা করি “শেলবরিষা সমাজ কল্যাণ সংস্থা”...
                     </p>
+
+                </div>
+            </div>
+            <div className="w-11/12 ageimmax-w-7xl mx-auto bg-white rounded-[32px] shadow-xl p-4 sm:p-6 md:p-8 lg:p-10">
+
+                {/* Gallery Grid */}
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+
+                    {images.map((image, index) => (
+                        <div
+                            key={index}
+                            className="group overflow-hidden rounded-3xl border border-gray-100 shadow-sm hover:shadow-2xl transition-all duration-300"
+                        >
+
+                            <div className="overflow-hidden">
+                                <Image
+                                    src={image}
+                                    alt={`social-work-${index + 1}`}
+                                    width={600}
+                                    height={400}
+                                    className="w-full h-[250px] sm:h-[300px] md:h-[320px] object-cover group-hover:scale-105 transition duration-500"
+                                />
+                            </div>
+
+                        </div>
+                    ))}
 
                 </div>
             </div>
