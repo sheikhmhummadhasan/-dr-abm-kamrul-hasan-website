@@ -10,18 +10,20 @@ const researchData = [
         description:
             'Research on the effectiveness of Platelet-Rich Plasma (PRP) therapy for diabetic foot ulcers and chronic wound healing.',
         journal: 'International Journal of Medical & Pharmaceutical Research',
-        year: '2022',
+        year: '2023',
         href: '/one.pdf',
     },
     {
         id: 2,
-        title: 'Decoding the Science of Fingerprints: The Influence of Sex and BloodGroup on Dermatoglyphic Traits among Medical Students',
-        icon: <FaFlask />,
-        description:'International Journal of forensic Expert Alliance',
-        journal: 'Medical Research Publication',
-        year: '2024',
-        href: '/tow.pdf',
+        title: 'Role of Platelet Rich Plasma (PRP) Therapy on Diabetic Foot Ulcer (DFU): A Prospective Study in Bangladesh',
+        icon: <MdScience />,
+        description:
+            'Jouranl Of SMMAMC.',
+        journal: 'Medical Science Review',
+        year: '2023',
+        href: '/five.pdf',
     },
+
     {
         id: 3,
         title: '3. The Pattern of Hematological Abnormalities in NS1 Positive Dengue Fever',
@@ -44,14 +46,14 @@ const researchData = [
     },
     {
         id: 5,
-        title: 'Role of Platelet Rich Plasma (PRP) Therapy on Diabetic Foot Ulcer (DFU): A Prospective Study in Bangladesh',
-        icon: <MdScience />,
-        description:
-            'Jouranl Of SMMAMC.',
-        journal: 'Medical Science Review',
-        year: '2023',
-        href: '/five.pdf',
+        title: 'Decoding the Science of Fingerprints: The Influence of Sex and BloodGroup on Dermatoglyphic Traits among Medical Students',
+        icon: <FaFlask />,
+        description: 'International Journal of Forensic Expert Alliance',
+        journal: 'The Official Journal of Forensic Expert Alliance of Bangladesh',
+        year: '2024',
+        href: '/tow.pdf',
     },
+
 ];
 
 const ResearchPage = () => {
@@ -79,39 +81,42 @@ const ResearchPage = () => {
                         href={research.href}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="bg-white rounded-3xl p-6 shadow-md hover:shadow-2xl transition duration-300 border border-blue-100 block"
+                        className="group bg-white rounded-3xl p-5 sm:p-6 shadow-md hover:shadow-2xl border border-blue-100 hover:border-blue-200 transition-all duration-300 block hover:-translate-y-1"
                     >
 
                         {/* Icon */}
-                        <div className="w-14 h-14 rounded-2xl bg-blue-100 text-[#0463fa] flex items-center justify-center text-2xl mb-4">
+                        <div className="w-14 h-14 rounded-2xl bg-blue-100 text-[#0463fa] flex items-center justify-center text-2xl mb-5 group-hover:scale-110 transition duration-300">
                             {research.icon}
                         </div>
 
                         {/* Title */}
-                        <h3 className="text-xl font-bold text-gray-800">
+                        <h3 className="text-lg sm:text-xl font-bold text-gray-800 leading-snug group-hover:text-[#0463fa] transition">
                             {research.title}
                         </h3>
 
                         {/* Description */}
-                        <p className="text-gray-600 mt-3 text-sm">
+                        <p className="text-gray-600 mt-3 text-sm sm:text-[15px] leading-relaxed">
                             {research.description}
                         </p>
 
                         {/* Footer */}
-                        <div className="mt-5 flex justify-between items-center border-t pt-4">
-                            <span className="text-xs text-gray-500">
+                        <div className="mt-5 flex flex-col sm:flex-row sm:justify-between sm:items-center gap-3 border-t border-blue-50 pt-4">
+                            <span className="text-xs sm:text-sm text-gray-500 font-medium">
                                 {research.journal}
                             </span>
 
-                            <span className="bg-[#0463fa] text-white px-3 py-1 rounded-full text-xs">
+                            <span className="bg-[#0463fa]/10 text-[#0463fa] px-3 py-1 rounded-full text-xs font-semibold w-fit">
                                 {research.year}
                             </span>
                         </div>
 
                         {/* Button feel */}
-                        <button className="mt-6 w-full bg-[#0463fa] hover:bg-[#0352cf] text-white py-3 rounded-xl transition duration-300 font-medium">
-                            View PDF →
-                        </button>
+                        <div className="mt-6 w-full bg-[#0463fa] hover:bg-[#0352cf] text-white py-3 rounded-2xl transition-all duration-300 font-medium flex items-center justify-center gap-2 text-sm sm:text-base shadow-sm group-hover:shadow-md">
+                            <span>View PDF</span>
+                            <span className="group-hover:translate-x-1 transition-transform duration-300">
+                                →
+                            </span>
+                        </div>
 
                     </a>
                 ))}
