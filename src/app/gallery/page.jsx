@@ -2,12 +2,12 @@ import Image from 'next/image';
 import React from 'react';
 
 export const metadata = {
-  title: "Dr ABM Kamrul Hasan | Diabetic Foot & Wound Care Expert",
-  description:
-    "ডায়াবেটিক ফুট, দীর্ঘদিনের ক্ষত, চুল পড়া/টাক, ত্বকের সমস্যা এবং যৌন দুর্বলতায় PRP (Platelet Rich Plasma) এবং Stem Cell Therapy চিকিৎসক",
-  icons: {
-    icon: "/favicon.png",
-  },
+    title: "Dr ABM Kamrul Hasan | Diabetic Foot & Wound Care Expert",
+    description:
+        "ডায়াবেটিক ফুট, দীর্ঘদিনের ক্ষত, চুল পড়া/টাক, ত্বকের সমস্যা এবং যৌন দুর্বলতায় PRP (Platelet Rich Plasma) এবং Stem Cell Therapy চিকিৎসক",
+    icons: {
+        icon: "/favicon.png",
+    },
 };
 
 const GallaryPage = () => {
@@ -183,7 +183,7 @@ const GallaryPage = () => {
                                 </h3>
 
                                 <p className="text-gray-500 text-sm mt-2">
-                                    Effective skin rejuvenation and scar improvement treatment.
+                                    Visible improvement after professional PRP therapy sessions.
                                 </p>
                             </div>
                         </div>
@@ -272,7 +272,7 @@ const GallaryPage = () => {
 
                             <div className="p-5">
                                 <h3 className="text-xl font-bold text-gray-800">
-                                   PRP Hair Treatment
+                                    PRP Hair Treatment
                                 </h3>
 
                                 <p className="text-gray-500 text-sm mt-2">
