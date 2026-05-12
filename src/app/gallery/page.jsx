@@ -28,7 +28,7 @@ const GallaryPage = () => {
         { id: 6, video: "/video-6.mp4" },
         { id: 7, video: "/video-7.mp4" },
         { id: 8, video: "/video-8.mp4" },
-        { id: 9, video: "/video-9.mp4" },
+        { id: 9, video: "/video-10.mp4" },
     ];
 
     return (
